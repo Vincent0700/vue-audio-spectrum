@@ -1,0 +1,36 @@
+{
+  "name": "vue-audio-spectrum",
+  "version": "0.1.0",
+  "description": "基于Vue的音频频谱显示模块",
+  "keywords": [
+    "spectrum",
+    "audio",
+    "visualizer",
+    "vue"
+  ],
+  "main": "lib/vue-audio-spectrum.umd.min.js",
+  "author": "vincent0700",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-audio-spectrum --dest lib packages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.6.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
